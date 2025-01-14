@@ -18,7 +18,7 @@ public class YouTubeTest {
 
     @Test
     public void testPlayMusic() {
-        youTubePage.search("Relaxing Music");
+        youTubePage.search("The Beatles");
         youTubePage.playFirstVideo();
     }
 
